@@ -1,5 +1,4 @@
 #include "network.h"
-
 void do_service(int peerfd)
 {
     char recvbuf[1024] = {0};
